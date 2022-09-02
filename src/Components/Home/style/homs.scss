@@ -1,0 +1,41 @@
+.Home{
+    margin-top:80px;
+
+    .heading_container{
+        // background-color: aliceblue;
+        height: 80vh;
+        padding: 3%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left{
+            width: 40%;
+            h1{
+                font-family: 'Qwitcher Grypen', cursive;
+                font-size: 96px;
+                font-weight: 700;
+                background-image: linear-gradient(60deg, #00713e, #00ff8c);
+                background-clip: text;
+                color: transparent;
+
+                margin: 0px;
+            }
+            .contain{
+                font-size: 18px;
+                color: #00391f;
+            }
+        }
+        .right{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 700px;
+            }
+        }
+    }
+}

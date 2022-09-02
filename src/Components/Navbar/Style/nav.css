@@ -1,0 +1,134 @@
+header {
+  height: 80px;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5fff4), to(white));
+  background-image: linear-gradient(#f5fff4, white);
+}
+
+header .logo {
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 48px;
+  background-image: linear-gradient(60deg, #00713e, #009150);
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+header .links {
+  font-family: 'Noto Sans', sans-serif;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  height: auto;
+  width: auto;
+  font-size: 22px;
+}
+
+header .links ul li {
+  list-style: none;
+  margin: 8%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+header .links ul li a {
+  color: #00391f;
+  text-decoration: none;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+header .links ul li a:hover {
+  color: #37c27d;
+}
+
+header .hamburger {
+  display: none;
+  background: none;
+  margin-right: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+header .hamburger img {
+  height: 28px;
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    background-color: white;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .logo_img {
+    width: 100px;
+    margin-right: 60vw;
+  }
+  header .links {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+  }
+  header .links ul {
+    background-color: white;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin: 0px;
+    width: 100vw;
+    padding: 0px;
+  }
+  header .links ul li {
+    text-align: center;
+  }
+  header .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  header .logo_img {
+    margin-right: 50vw;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

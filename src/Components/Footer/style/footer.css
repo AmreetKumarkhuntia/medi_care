@@ -1,0 +1,18 @@
+footer {
+  background-color: #002110;
+  height: 80px;
+  font-weight: 300;
+  font-family: 'Noto Sans';
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=footer.css.map */
