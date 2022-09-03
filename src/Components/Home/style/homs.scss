@@ -38,4 +38,23 @@
             }
         }
     }
+
+    .form_showcase{
+        background-color: rgb(249, 249, 249);
+        height: 80vh;
+        padding: 3%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1{
+            text-align: center;
+        }
+
+        button{
+            margin-top: 50px;
+        }
+    }
 }
