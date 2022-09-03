@@ -1,4 +1,6 @@
 import './style/homs.css';
+import Button from '@mui/material/Button'
+import TextField from '@mui/material/TextField'
 
 const Home = () => {
     return ( <div className="Home">
@@ -12,9 +14,14 @@ const Home = () => {
                 </span>
             </div>
             <div className='right'>
-                {/* <img src="https://www.pngmart.com/files/21/Hospital-Vector-PNG-Transparent.png" alt="loading image" /> */}
-                
             </div>
+            
+        </div>
+        <div className='data_container'>
+            <TextField id="outlined-basic" label="City Name" variant="outlined" />
+            <TextField id="outlined-basic" label="Country Name" variant="outlined" />
+            <TextField id="outlined-basic" label="Pincode" variant="outlined" />
+            <Button variant="contained">Hello World</Button>
         </div>
     </div>);
 }
